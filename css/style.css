@@ -29,6 +29,10 @@ lightblue #8EA1E1
     color: #FFF;
 }
 
+.black-text {
+    color: #000;
+}
+
 .lightblue-text {
     color: #8EA1E1;
 }
@@ -109,7 +113,6 @@ ul, .flex-container {
     width: calc(100% / 5 * 2);
     flex-basis: 500px;
     padding: 15px;
-    box-sizing: border-box;
 }
 
 .section {
@@ -119,4 +122,15 @@ ul, .flex-container {
 
 .middle {
     order: 1;
+}
+
+.last-section {
+    height: 800px;
+    text-align: center;
+    padding: 150px 15px;
+    box-sizing: border-box;
+}
+
+.space {
+    padding: 15px;
 }
