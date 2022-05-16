@@ -16,6 +16,7 @@ lightblue #8EA1E1
 .container {
     width: 1200px;
     height: 500px;
+    margin: 0 auto;
 }
 
 .flex-container {
@@ -43,4 +44,47 @@ lightblue #8EA1E1
 
 header {
     background-color: #3161E0;
+}
+
+.head {
+    height: 50px;
+}
+
+.main-head {
+    width: 600px;
+    height: 450px;
+    margin: 0 auto;
+    flex-direction: column;
+    text-align: center;
+    padding: 60px;
+}
+
+.logo .login {
+    width: 25%;
+}
+
+.links {
+    width: 50%;
+}
+
+.head, .flex-container {
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: #FFF;
+}
+
+ul, .flex-container {
+    justify-content: space-evenly;
+}
+
+.button {
+    padding: 40px;
 }
