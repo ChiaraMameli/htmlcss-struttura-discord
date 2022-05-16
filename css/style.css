@@ -21,6 +21,13 @@ lightblue #8EA1E1
 
 }
 
+.footer-container {
+    width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+
+}
+
 .flex-container {
     display: flex;
 }
@@ -133,4 +140,52 @@ ul, .flex-container {
 
 .space {
     padding: 15px;
+}
+
+/* ASIDE */
+
+.social {
+    box-sizing: border-box;
+    height: 500px;
+    width: calc(100% / 5);
+    padding: 15px;
+}
+
+.list {
+    height: 500px;
+    width: calc(100% / 5 * 4 - 15px);
+}
+
+.aside {
+    justify-content: space-between;
+    border-bottom: 1px solid #8EA1E1;
+
+}
+
+.icons {
+    color: #FFF;
+    padding: 15px;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.source {
+    align-items: flex-start;
+    line-height: 30px;
+}
+
+h3 {
+    color: #8EA1E1;
+}
+
+/* FOOTER */
+
+footer {
+    height: 100px;
+}
+
+.bottom {
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 25px 0;
 }
