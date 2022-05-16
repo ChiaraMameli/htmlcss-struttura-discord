@@ -14,15 +14,14 @@ lightblue #8EA1E1
 /* UTILS */
 
 .container {
-    width: 1200px;
+    width: 1500px;
     height: 500px;
     margin: 0 auto;
-    box-sizing: border-box;
 
 }
 
 .footer-container {
-    width: 1200px;
+    width: 1500px;
     height: 100px;
     margin: 0 auto;
 
@@ -59,7 +58,7 @@ header {
 }
 
 .head {
-    height: 50px;
+    height: 70px;
 }
 
 .main-head {
@@ -127,15 +126,14 @@ ul, .flex-container {
     justify-content: space-between;
 }
 
-.middle {
+.middle-section {
     order: 1;
 }
 
 .last-section {
-    height: 800px;
+    height: 600px;
     text-align: center;
-    padding: 150px 15px;
-    box-sizing: border-box;
+    padding: 100px 15px;
 }
 
 .space {
