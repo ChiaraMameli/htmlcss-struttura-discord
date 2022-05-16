@@ -5,7 +5,7 @@ darkgrey #23272A
 lightblue #8EA1E1
 
 /* GENERICS */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -17,11 +17,12 @@ lightblue #8EA1E1
     width: 1200px;
     height: 500px;
     margin: 0 auto;
+    box-sizing: border-box;
+
 }
 
 .flex-container {
     display: flex;
-    flex-direction: flex-start;
 }
 
 .white-text {
@@ -87,4 +88,35 @@ ul, .flex-container {
 
 .button {
     padding: 40px;
+}
+
+/* SECTIONS */
+
+.image {
+    width: calc(100% / 5 * 3 - 15px);
+    flex-basis: 500px;
+    padding: 15px;
+
+}
+
+.picture {
+    height: 300px;
+    padding: 50px;
+
+}
+
+.paragraph {
+    width: calc(100% / 5 * 2);
+    flex-basis: 500px;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.section {
+    height: 500px;
+    justify-content: space-between;
+}
+
+.middle {
+    order: 1;
 }
